@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.content {
+    display: flex;
+}
+
+aside {
+    width: 30%;
+}
+
+.pic img {
+    height: 4rem;
+    width: 4.5rem;
+    border-radius: 50%;
+}
+
+.align {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+}
+
+.user{
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.user p {
+    color: #9e9696;
+}
+
+
+.icons {
+    font-size: 1.2rem;
+    color: #9e9696;
+}
+
+.fa-regular:hover {
+    color: #f8d140;
+}
+
+.fa-solid:hover {
+    color: #f8d140;
+}
+
+.fa-regular {
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #f8d140;
+    padding: 1.2rem 1rem;
+    border: none;
+    border-radius: 10%;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.new-chat {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.platform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f8d140;
+    min-height: 100vh;
+}
+
+.platform img {
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.platform h1 {
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.platform h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.chats {
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+.chats-column {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+}
+
+.second {
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.second:hover {
+    background-color: #f0eded;
+    transition: .5s;
+}
