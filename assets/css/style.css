@@ -106,13 +106,16 @@ button:hover {
 
 .chats {
     margin-left: 1rem;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
 }
 
 .chats-column {
     display: flex;
     flex-direction: column;
-    padding: 1rem 2rem;
+}
+
+.chats-column figure {
+    padding: 0.5rem 0 0 2rem;
 }
 
 .second {
